@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-canvas = np.zeros((300,300,3) , dtype = "uint8") # datatype needto be specified unsignesd int 8bits
+canvas = np.zeros((300,300,3) , dtype = "uint8") # datatype needto be specified unsignesd int 8bits , 3 is the channels say(R,G,B)
 green = (0,255,0)
 
 cv2.line(canvas , (0,0) , (300,300) , green)
